@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2824338616036657967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2824338616036657953}
+  - component: {fileID: 2824338616036657966}
+  m_Layer: 0
+  m_Name: AudioManager 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2824338616036657953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2824338616036657967}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -46.65331, y: -0.35532922, z: -0.7446756}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2824338616036657966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2824338616036657967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c911157dd4052b145aa7681098c05938, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainTheme
+    type: 0
+    clip: {fileID: 8300000, guid: 7a909161cac2fe0499fd0da0a2b8443a, type: 3}
+    pitch: 1
+    defaultVolume: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: SwampTheme
+    type: 0
+    clip: {fileID: 8300000, guid: 8918aadd06b3a3d45a13f84e8994067f, type: 3}
+    pitch: 1
+    defaultVolume: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: LaunchBattle
+    type: 1
+    clip: {fileID: 8300000, guid: 284036cbff80b4447817844b40620561, type: 3}
+    pitch: 1
+    defaultVolume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: QuitGame
+    type: 1
+    clip: {fileID: 8300000, guid: 660aca42900799343a21215aebad9085, type: 3}
+    pitch: 1
+    defaultVolume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LaunchLevel
+    type: 1
+    clip: {fileID: 8300000, guid: fb52c9381f1db424f8ca7ced37a5236a, type: 3}
+    pitch: 1
+    defaultVolume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: OkHit
+    type: 1
+    clip: {fileID: 8300000, guid: 090b5257d3009b3408cdee4a2f2f96a2, type: 3}
+    pitch: 1
+    defaultVolume: 0.2
+    loop: 0
+    source: {fileID: 0}
+  - name: PerfectHit
+    type: 1
+    clip: {fileID: 8300000, guid: e39c29f528ef99548a6cb6921e301fbf, type: 3}
+    pitch: 1
+    defaultVolume: 0.2
+    loop: 0
+    source: {fileID: 0}
+  - name: BattleWin
+    type: 1
+    clip: {fileID: 8300000, guid: b3d2ac07b57df3540a202a065245208f, type: 3}
+    pitch: 1
+    defaultVolume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: BattleLost
+    type: 1
+    clip: {fileID: 8300000, guid: 660aca42900799343a21215aebad9085, type: 3}
+    pitch: 1
+    defaultVolume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: Hurt
+    type: 1
+    clip: {fileID: 8300000, guid: 8e51164ed902c154ea02df81471ad1e8, type: 3}
+    pitch: 1
+    defaultVolume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MissKey
+    type: 1
+    clip: {fileID: 8300000, guid: ff5ea34df15067043bf2d7954eaf6b70, type: 3}
+    pitch: 1
+    defaultVolume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AcidAttack
+    type: 1
+    clip: {fileID: 8300000, guid: adbee77f0bca5d542b83bb3f9a835d8e, type: 3}
+    pitch: 1
+    defaultVolume: 1
+    loop: 0
+    source: {fileID: 0}

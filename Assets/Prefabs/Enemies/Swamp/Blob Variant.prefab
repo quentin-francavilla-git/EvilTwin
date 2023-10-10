@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3611433677603457045
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1015354107163870840, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107163870841, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107163870842, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107163870845, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_Name
+      value: BlobMovementBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107163870847, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107858200017, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_Size.x
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107858200017, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_Size.y
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107858200017, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107858200017, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107858200017, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107858200017, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107858200017, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107858200017, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107858200018, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107858200018, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_Size.x
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107858200018, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107858200018, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107858200019, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f209af0e59fe5684eb18b2d86e94264a, type: 2}
+    - target: {fileID: 1015354107858200021, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_Name
+      value: BlobObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107858200021, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_TagString
+      value: EnemyObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107917362544, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_Name
+      value: Blob Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107917362544, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107917362545, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107917362545, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -46.767788
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107917362545, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1380052
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107917362545, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.086308666
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107917362545, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107917362545, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107917362545, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107917362545, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107917362545, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107917362545, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015354107917362545, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cdb414348b708174b8910cd197ec4bef, type: 3}
