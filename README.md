@@ -4,4 +4,4 @@
 
 This project was crafted in C# using Unity during my academic journey at Keimyung University.
 
-![alt text](https://i.imgur.com/HMmQHQu.jpg)
+![alt text](https://i.imgur.com/zrjSdoL.jpg)
